@@ -1,0 +1,33 @@
+#container {
+    width: 600px;
+    height: 600px;
+    background-color: lightgrey;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+#grid_button {
+    position: relative;
+    bottom: 90px;
+    width: 100px;
+    height: 60px;
+}
+#grid {
+    border: 1px solid darkblue;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 61px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.pixel {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
